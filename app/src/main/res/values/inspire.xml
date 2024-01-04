@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string-array name="inspire_list"> 
+    <item>"Be brave enough to live life creatively. The creative place where no one else has ever been.\n"  -
+                        "Alan Alda"</item> 
+    <item>"Don't judge each day by the harvest you reap but by the seeds that you plant.\n"  -
+                        "Robert Louis Stevenson"</item>
+	<item>"There are two ways of spreading light: to be the candle or the mirror that reflects it.\n" - 
+                        "Edith Wharton"</item> 
+    <item>"No matter what people tell you, words and ideas can change the world.\n" - 
+                        "Robin Williams"</item> 
+    <item>"You must do the things you think you cannot do.\n" - 
+                        "Eleanor Roosevelt"</item> 
+    <item>"We know what we are, but know not what we may be.\n" - 
+                        "William Shakespeare"</item> 
+    <item>"Everything has been figured out, except how to live.\n" -
+                        "Jean-Paul Sartre"</item> 
+    <item>"Big doesn't necessarily mean better. Sunflowers aren't better than violets.\n" - 
+                "Edna Ferber"</item> 			
+	<item>"I have realized that the past and future are real illusions, that they exist in the present, which is what there is and all there is.\n" -
+                "Alan Watts"</item> 
+    <item>"We don't need to share the same opinions as others, but we need to be respectful.\n" -
+                "Taylor Swift"</item> 
+    <item>"Life is short, and we should respect every moment of it.\n" -
+                "Orhan Pamuk"</item> 
+    <item>"A cloudy day is no match for a sunny disposition.\n" -
+                "William Arthur Ward"</item> 
+    <item>"Time passes irrevocably.\n" -
+                "Virgil"</item> 
+    <item>"Everything's got a moral, if only you can find it.\n" -
+                "Lewis Carroll"</item> 
+    <item>"The world is always in movement.\n" -
+                "V. S. Naipaul"</item> 
+    <item>"Love takes up where knowledge leaves off.\n" -
+                "Thomas Aquinas"</item> 
+    <item>"A kiss is a rosy dot over the 'i' of loving.\n" -
+                "Cyrano de Bergerac"</item> 
+    <item>"The world of reality has its limits; the world of imagination is boundless.\n" -
+                "Jean-Jacques Rousseau"</item> 
+    <item>"A man is but the product of his thoughts what he thinks, he becomes.\n" -
+                "Mahatma Gandhi"</item> 
+    <item>"Solitary trees, if they grow at all, grow strong.\n" -
+                "Winston Churchill"</item> 
+    <item>"To fail to love is not to exist at all.\n" -
+                "Mark Van Doren"</item> 
+    <item>"Little minds are tamed and subdued by misfortune; but great minds rise above them.\n" -
+                "Washington Irving"</item> 
+    <item>"Speak clearly, if you speak at all; carve every word before you let it fall.\n" -
+                "Oliver Wendell Holmes, Sr."</item> 
+    <item>"Words empty as the wind are best left unsaid.\n" -
+                "Homer"	</item> 		
+	<item>"The most important thing in communication is hearing what isn't said.\n" -
+				"Peter Drucker"</item>
+	<item>"Friendship is Love without his wings!\n" -
+				"Lord Byron"</item>
+	<item>"Be faithful to that which exists within yourself.\n" -
+				"Andre Gide"</item>
+	<item>"Man is so made that when anything fires his soul, impossibilities vanish.\n" -
+				"Jean de La Fontaine"</item>
+	<item>"The only way to discover the limits of the possible is to go beyond them into the impossible.\n" -
+				"Arthur C. Clarke"</item>
+	<item>"Love in its essence is spiritual fire.\n" -
+                "Lucius Annaeus Seneca"</item>
+	<item>"Curiosity will conquer fear even more than bravery will.\n" -
+				"James Stephens"</item>
+	<item>"It's all about quality of life and finding a happy balance between work and friends and family.\n" -
+				"Philip Green"</item>
+	<item>"Every man dies. Not every man really lives.\n" -
+				"William Wallace"</item>
+	<item>"When your work speaks for itself, don't interrupt.\n" - 
+				"Henry J. Kaiser"</item>
+	<item>"Only do what your heart tells you.\n" -
+				"Princess Diana"</item>
+	<item>"Art washes away from the soul the dust of everyday life.\n" -
+				"Pablo Picasso"</item>
+	<item>"Dreams are necessary to life.\n" -
+				"Anais Nin"</item>
+	<item>"Music is moonlight in the gloomy night of life.\n" -
+				"Jean Paul"</item>
+	<item>"A man who gives his children habits of industry provides for them better than by giving them fortune.\n" -
+				"Richard Whately"</item>
+	<item>"Every failure is a step to success.\n" - 
+                "William Whewell"</item>
+	<item>"If you dream of something worth doing and then simply go to work on it and don't think anything of personalities, or emotional conflicts, or of money, or of family distractions; it is amazing how quickly you get through those 5,000 steps.\n" -
+				"Edwin Land"</item>
+	<item>"Amazement awaits us at every corner.\n" - 
+				"James Broughton"</item>
+    <item>"In every man's heart there is a secret nerve that answers to the vibrations of beauty.\n" -
+                "Christopher Morley"</item>
+    <item>"Nothing in life is to be feared; it is only to be understood. Now is the time to understand more so that we may fear less.\n" -
+                "Marie Curie"</item>
+    <item>"May I never be complete. May I never be content. May I never be perfect.\n" -
+                "Chuck Palahniuk</item>
+    <item>"That which is not good for the bee-hive cannot be good for the bees.\n" -
+                "Marcus Aurelius</item>
+    <item>"It's better to be a lion for a day than a sheep all your life.\n" -
+                "Elizabeth Kenny"</item>
+    <item>"We cannot teach people anything; we can only help them discover it within themselves.\n" -
+                "Galileo Galilei</item>
+    <item>"Mystery creates wonder and wonder is the basis of man's desire to understand.\n" -
+                "Neil Armstrong"</item>
+    <item>"Once we accept our limits, we go beyond them.\n" -
+                "Albert Einstein"</item>
+    <item>"The time is always right to do what is right.\n" -
+                "Martin Luther King, Jr."</item>
+    <item>"We make a living by what we get, but we make a life by what we give.\n" -
+                "Winston Churchill"</item>
+    <item>"A certain amount of opposition is a great help to a man. Kites rise against, not with, the wind.\n" -
+                "Lewis Mumford"</item>
+    <item>"There is nothing in a caterpillar that tells you it's going to be a butterfly.\n" -
+                "R. Buckminster Fuller"</item>
+    <item>"At the center of non-violence stands the principle of love.\n" -
+                "Martin Luther King, Jr."</item>
+    <item>"Never doubt that a small group of thoughtful, committed citizens can change the world; indeed, it's the only thing that ever has.\n" -
+                "Margaret Mead"</item>
+    <item>"The less you talk, the more you're listened to.\n" -
+                "Pauline Phillips"</item>
+    <item>"I believe that if one always looked at the skies, one would end up with wings.\n" -
+                "Gustave Flaubert"</item>
+    <item>"The person who can bring the spirit of laughter into a room is indeed blessed.\n" -
+                "Bennett Cerf"</item>
+    <item>"We cannot put off living until we are ready.\n" -
+                "Jose Ortega y Gasset"</item>
+    <item>"The sun does not shine for a few trees and flowers, but for the wide world's joy.\n" -
+                "Henry Ward Beecher"</item>
+    <item>"The art of being happy lies in the power of extracting happiness from common things.\n" -
+                "Henry Ward Beecher"</item>
+    <item>"My boy, one small breeze doesn't make a wind storm.\n" -
+                "John McGraw"</item>
+    <item>"Believe and act as if it were impossible to fail.\n" -
+                "Charles Kettering"</item>
+    <item>"The only abnormality is the incapacity to love.\n" -
+                "Anais Nin"</item>
+    <item>"The greatest discovery of all time is that a person can change his future by merely changing his attitude.\n"-
+                "Oprah Winfrey"</item>
+    <item>"True happiness is... to enjoy the present, without anxious dependence upon the future.\n"-
+                "Lucius Annaeus Seneca"</item>
+    <item>"No dream is too big. No challenge is too great. Nothing we want for our future is beyond our reach.\n"-
+                "Donald Trump"</item>
+    <item>"It is time for parents to teach young people early on that in diversity there is beauty and there is strength.\n"-
+                "Maya Angelou"</item>
+    <item>"Beauty is how you feel inside, and it reflects in your eyes. It is not something physical.\n"-
+                "Sophia Loren"</item>
+    <item>"Beauty has so many forms, and I think the most beautiful thing is confidence and loving yourself.\n"-
+                "Kiesza"</item>
+    <item>"Dreams are the seeds of change. Nothing ever grows without a seed, and nothing ever changes without a dream.\n"-
+                "Debby Boone"</item>
+</string-array>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="400dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/black"
+        app:srcCompat="@drawable/ivana" />
+
+    <Button
+        android:id="@+id/button10min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button20min"
+        android:layout_alignBottom="@+id/button20min"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:background="#00ff00"
+        android:text="10 Minutes"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button20min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/button10min"
+        android:background="#00ff00"
+        android:text="20 Minutes"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="400dp"
+        android:layout_height="110dp"
+        android:layout_above="@+id/button30min"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:background="#ffff00"
+        android:visibility="gone"
+        app:srcCompat="@drawable/louis" />
+
+    <Button
+        android:id="@+id/button27min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button10min"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+        android:background="#ffff00"
+        android:text="27 HIIT"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button30min"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button27min"
+        android:layout_alignBottom="@+id/button27min"
+        android:layout_alignStart="@+id/button20min"
+        android:layout_gravity="center"
+        android:background="#ffff00"
+        android:text="30 HIIT"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="400dp"
+        android:layout_height="110dp"
+        android:layout_above="@+id/button25redmin"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginTop="15dp"
+        android:background="#ff0000"
+        android:visibility="gone"
+        app:srcCompat="@drawable/lance" />
+
+    <Button
+        android:id="@+id/button25redmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button27min"
+        android:layout_gravity="center"
+        android:layout_marginTop="17dp"
+        android:background="#ff0000"
+        android:text="25 HIIT"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button30redmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button25redmin"
+        android:layout_alignBottom="@+id/button25redmin"
+        android:layout_alignStart="@+id/button30min"
+        android:layout_gravity="center"
+        android:background="#ff0000"
+        android:text="30 HIIT"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
