@@ -11,8 +11,10 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.IBinder;
+import android.support.annotation.RequiresApi;
 import android.util.Log;
 import android.view.MenuItem;
 
@@ -92,11 +94,12 @@ public abstract class DemoSensorActivity extends Activity {
         bindService(gattServiceIntent, serviceConnection, BIND_AUTO_CREATE);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.TIRAMISU)
     @Override
     protected void onResume() {
         super.onResume();
 
-        registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter());
+        registerReceiver(gattUpdateReceiver, makeGattUpdateIntentFilter(), Context.RECEIVER_NOT_EXPORTED);
         if (bleService != null) {
             final boolean result = bleService.connect(deviceAddress);
             Log.d(TAG, "Connect request result=" + result);
@@ -118,10 +121,9 @@ public abstract class DemoSensorActivity extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch(item.getItemId()) {
-            case android.R.id.home:
-                onBackPressed();
-                return true;
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
         }
         return super.onOptionsItemSelected(item);
     }

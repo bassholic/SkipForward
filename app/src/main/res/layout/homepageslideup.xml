@@ -105,6 +105,17 @@
                 android:src="@drawable/elip" />
 
             <ImageButton
+                android:id="@+id/deadButton"
+                android:layout_width="fill_parent"
+                android:layout_height="165dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="35dp"
+                android:layout_weight=".25"
+                android:backgroundTint="#ffffff"
+                android:src="@drawable/dead" />
+
+            <ImageButton
                 android:id="@+id/customButton"
                 android:layout_width="fill_parent"
                 android:layout_height="205dp"

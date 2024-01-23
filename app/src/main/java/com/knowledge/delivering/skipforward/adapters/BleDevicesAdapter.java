@@ -1,5 +1,6 @@
 package com.knowledge.delivering.skipforward.adapters;
 
+import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothDevice;
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -21,10 +22,10 @@ public class BleDevicesAdapter extends BaseAdapter {
     private final LayoutInflater inflater;
 
     private final ArrayList<BluetoothDevice> leDevices;
-    private final HashMap<BluetoothDevice, Integer> rssiMap = new HashMap<BluetoothDevice, Integer>();
+    private final HashMap<BluetoothDevice, Integer> rssiMap = new HashMap<>();
 
     public BleDevicesAdapter(Context context) {
-        leDevices = new ArrayList<BluetoothDevice>();
+        leDevices = new ArrayList<>();
         inflater = LayoutInflater.from(context);
     }
 
@@ -58,6 +59,7 @@ public class BleDevicesAdapter extends BaseAdapter {
         return i;
     }
 
+    @SuppressLint({"InflateParams", "SetTextI18n"})
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
         ViewHolder viewHolder;
@@ -74,13 +76,13 @@ public class BleDevicesAdapter extends BaseAdapter {
         }
 
         BluetoothDevice device = leDevices.get(i);
-        final String deviceName = device.getName();
+        @SuppressLint("MissingPermission") final String deviceName = device.getName();
         if (deviceName != null && deviceName.length() > 0)
             viewHolder.deviceName.setText(deviceName);
         else
             viewHolder.deviceName.setText(R.string.unknown_device);
         viewHolder.deviceAddress.setText(device.getAddress());
-        viewHolder.deviceRssi.setText(""+rssiMap.get(device)+" dBm");
+        viewHolder.deviceRssi.setText(rssiMap.get(device)+" dBm");
 
         return view;
     }

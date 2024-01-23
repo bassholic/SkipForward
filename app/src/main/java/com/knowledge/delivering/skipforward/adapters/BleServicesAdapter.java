@@ -14,6 +14,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Objects;
 import java.util.UUID;
 
 import com.knowledge.delivering.skipforward.R;
@@ -32,12 +33,12 @@ public class BleServicesAdapter extends BaseExpandableListAdapter {
     private final static String TAG = BleServicesAdapter.class.getSimpleName();
 
     public interface OnServiceItemClickListener {
-        public void onDemoClick(BluetoothGattService service);
+        void onDemoClick(BluetoothGattService service);
 
-        public void onServiceEnabled(BluetoothGattService service,
+        void onServiceEnabled(BluetoothGattService service,
                                      boolean enabled);
 
-        public void onServiceUpdated(BluetoothGattService service);
+        void onServiceUpdated(BluetoothGattService service);
     }
 
     private static final String MODE_READ = "R";
@@ -87,7 +88,7 @@ public class BleServicesAdapter extends BaseExpandableListAdapter {
 
     @Override
     public int getChildrenCount(int groupPosition) {
-        return characteristics.get(getGroup(groupPosition)).size();
+        return Objects.requireNonNull(characteristics.get(getGroup(groupPosition))).size();
     }
 
     @Override
@@ -103,7 +104,7 @@ public class BleServicesAdapter extends BaseExpandableListAdapter {
                 "uuid:"
                         + characteristics.get(getGroup(groupPosition))
                         .get(childPosition).getUuid());
-        return characteristics.get(getGroup(groupPosition)).get(childPosition);
+        return Objects.requireNonNull(characteristics.get(getGroup(groupPosition))).get(childPosition);
     }
 
     public BluetoothGattService getHeartRateService() {
@@ -121,7 +122,7 @@ public class BleServicesAdapter extends BaseExpandableListAdapter {
 
     @Override
     public long getChildId(int groupPosition, int childPosition) {
-        return groupPosition * 100 + childPosition;
+        return groupPosition * 100L + childPosition;
     }
 
     @Override
@@ -209,8 +210,8 @@ public class BleServicesAdapter extends BaseExpandableListAdapter {
                             final BleSensor<?> sensor = BleSensors
                                     .getSensor(holder.service.getUuid()
                                             .toString());
-                            if (sensor == null)
-                                return;
+                            if (sensor == null) {
+                            }
 
                         }
 
@@ -276,9 +277,7 @@ public class BleServicesAdapter extends BaseExpandableListAdapter {
     }
 
     private static boolean isDemoable(BleSensor<?> sensor) {
-        if (sensor instanceof BleHeartRateSensor)
-            return true;
-        return false;
+        return sensor instanceof BleHeartRateSensor;
     }
 
     private static String getModeString(int prop) {
