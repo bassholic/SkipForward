@@ -42,25 +42,25 @@ public class Eliptical extends Activity {
 
             if (entry.toString().equalsIgnoreCase("Eliptical1")) {
 
-                lstCtTimers.add("9%     6    Forward");
+                lstCtTimers.add("3 min  9%     6    Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("9%     12   Forward");
+                lstCtTimers.add("3 min  9%     12   Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("9%     12   Back");
+                lstCtTimers.add("3 min  9%     12   Back");
                 lstTimers.add(180);
-                lstCtTimers.add("9%     13   Forward");
+                lstCtTimers.add("3 min  9%     13   Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("9%     13   Back");
+                lstCtTimers.add("3 min  9%     13   Back");
                 lstTimers.add(180);
-                lstCtTimers.add("9%     14   Forward");
+                lstCtTimers.add("3 min  9%     14   Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("9%     14   Back");
+                lstCtTimers.add("3 min  9%     14   Back");
                 lstTimers.add(180);
-                lstCtTimers.add("9%     15   Forward");
+                lstCtTimers.add("3 min  9%     15   Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("9%     15   Back");
+                lstCtTimers.add("3 min  9%     15   Back");
                 lstTimers.add(180);
-                lstCtTimers.add("6%     6    Forward");
+                lstCtTimers.add("3 min  6%     6    Forward");
                 lstTimers.add(180);
 
 
@@ -68,25 +68,25 @@ public class Eliptical extends Activity {
 
             if (entry.toString().equalsIgnoreCase("Eliptical2")) {
 
-                lstCtTimers.add("7%     9    Forward");
+                lstCtTimers.add("3 min  7%     9    Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("9%     12   Forward");
+                lstCtTimers.add("3 min  9%     12   Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("12%    12   Forward");
+                lstCtTimers.add("3 min  12%    12   Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("10%    13   Forward");
+                lstCtTimers.add("3 min  10%    13   Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("13%    11   Forward");
+                lstCtTimers.add("3 min  13%    11   Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("11%    14   Forward");
+                lstCtTimers.add("3 min  11%    14   Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("14%    12   Forward");
+                lstCtTimers.add("3 min  14%    12   Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("12%    15   Forward");
+                lstCtTimers.add("3 min  12%    15   Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("15%    13   Forward");
+                lstCtTimers.add("3 min  15%    13   Forward");
                 lstTimers.add(180);
-                lstCtTimers.add("7%     9    Forward");
+                lstCtTimers.add("3 min  7%     9    Forward");
                 lstTimers.add(180);
 
             }
@@ -150,7 +150,7 @@ public class Eliptical extends Activity {
                 lstCtTimers.add("1 min  5%   14  120 Strokes");
                 lstTimers.add(60);
                 lstCtTimers.add("2 min  5%   0   110 Strokes");
-                lstTimers.add(60);
+                lstTimers.add(120);
             }
 
             if (entry.toString().equalsIgnoreCase("Eliptical5")) {
@@ -255,12 +255,10 @@ public class Eliptical extends Activity {
                 lstCtTimers.add(".5 min  5%   12   170 Strokes");
                 lstTimers.add(30);
                 lstCtTimers.add("1 min  5%   5  120 Strokes");
-                lstTimers.add(30);
-                lstCtTimers.add("1 min  5%     0  110 Strokes");
                 lstTimers.add(60);
+                lstCtTimers.add("3 min  5%     0  110 Strokes");
+                lstTimers.add(180);
                 lstCtTimers.add("1 min  5%   12  125 Strokes");
-                lstTimers.add(60);
-                lstCtTimers.add("1 min  5%   12   120 Strokes");
                 lstTimers.add(60);
                 lstCtTimers.add("1 min  5%   12   120 Strokes");
                 lstTimers.add(60);
@@ -309,11 +307,11 @@ public class Eliptical extends Activity {
                 lstCtTimers.add("1 min  3%   10 150 Strokes");
                 lstTimers.add(60);
                 lstCtTimers.add("1 min  3%   5  120 Strokes");
-                lstTimers.add(180);
+                lstTimers.add(60);
                 lstCtTimers.add("1 min  3%   10 160 Strokes");
                 lstTimers.add(60);
                 lstCtTimers.add("1 min  3%   5  120 Strokes");
-                lstTimers.add(180);
+                lstTimers.add(60);
                 lstCtTimers.add("1 min  3%   12 150 Strokes");
                 lstTimers.add(60);
                 lstCtTimers.add("1 min  3%   5  120 Strokes");
@@ -325,7 +323,7 @@ public class Eliptical extends Activity {
                 lstCtTimers.add("1 min   3%   8    170 Strokes");
                 lstTimers.add(60);
                 lstCtTimers.add("1 min  3%   5  120 Strokes");
-                lstTimers.add(180);
+                lstTimers.add(60);
                 lstCtTimers.add("1 min  3%   10 160 Strokes");
                 lstTimers.add(60);
                 lstCtTimers.add("1.5 min  3%   5  120 Strokes");

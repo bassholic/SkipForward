@@ -29,6 +29,7 @@ public class HomepageActivity extends Activity {
     ImageButton imageButtonAbs;
     ImageButton imageButtonBattle;
     ImageButton imageButtonEliptical;
+    ImageButton imageButtonDead;
     Button btScan;
     private TextView quote;
 
@@ -46,6 +47,7 @@ public class HomepageActivity extends Activity {
         imageButtonAbs = (ImageButton)  findViewById(R.id.abButton);
         imageButtonBattle = (ImageButton)  findViewById(R.id.battleButton);
         imageButtonEliptical = (ImageButton)  findViewById(R.id.elipButton);
+        imageButtonDead = (ImageButton)  findViewById(R.id.deadButton);
         btScan = (Button)  findViewById(R.id.btScan);
 
 
@@ -128,6 +130,18 @@ public class HomepageActivity extends Activity {
             public void onClick(View arg0) {
                 //Starting a new Intent
                 Intent nextScreen = new Intent(getApplicationContext(), ModuleEliptical.class);
+
+                startActivity(nextScreen);
+
+            }
+        });
+
+        imageButtonDead.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                //Starting a new Intent
+                Intent nextScreen = new Intent(getApplicationContext(), ModuleDead.class);
 
                 startActivity(nextScreen);
 
