@@ -87,7 +87,7 @@ public class MainActivityBattle extends AppCompatActivity implements AdapterView
 
     Handler handler;
 
-    String[] choosenWorkout = {"","Beg 9", "Intense 18", "Jump K30"};
+    String[] choosenWorkout = {"","Beg 9 Single","Beg 9", "Intense 18", "Jump K30"};
 
 //BLE ACTIVITY
 private final static String TAG = DeviceServicesActivity.class.getSimpleName();

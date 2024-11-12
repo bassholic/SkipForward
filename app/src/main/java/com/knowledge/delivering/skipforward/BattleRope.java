@@ -40,6 +40,156 @@ public class BattleRope extends Activity {
 
            // Dialog settingsDialog = new Dialog(Treadmill.this);
 
+            if (entry.toString().equalsIgnoreCase("Beg 9 Single")) {
+
+                lstCtTimers.add("20 sec      Alternate Wave");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Hip Toss");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      In & Out Wave");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Seated Hip Toss");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Double Waves");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Arm Circles Counter");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Arm Circles Clockwise");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Jumping Jacks");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Power Slams");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Side-2-Side Grass Cutter");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Battle Rope Shuffle");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec     Ski Steps");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Alternate Wave");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Hip Toss");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      In & Out Wave");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Seated Hip Toss");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Double Waves");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Arm Circles Counter");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Arm Circles Clockwise");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Jumping Jacks");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Power Slams");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Side-2-Side Grass Cutter");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Battle Rope Shuffle");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec     Ski Steps");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Alternate Wave");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Hip Toss");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      In & Out Wave");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Seated Hip Toss");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Double Waves");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Arm Circles Counter");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Arm Circles Clockwise");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Jumping Jacks");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Power Slams");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Side-2-Side Grass Cutter");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      Battle Rope Shuffle");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec     Ski Steps");
+                lstTimers.add(1*20);
+                lstCtTimers.add("20 sec      REST");
+                lstTimers.add(1*20);
+
+            }
+
+
             if (entry.toString().equalsIgnoreCase("Beg 9")) {
 
                 lstCtTimers.add("23 sec      Alternate Wave");
@@ -49,7 +199,7 @@ public class BattleRope extends Activity {
                 lstCtTimers.add("23 sec      Hip Toss");
                 lstTimers.add(1*23);
                 lstCtTimers.add("23 sec      REST");
-                lstTimers.add(1*23);
+                lstTimers.add(23);
                 lstCtTimers.add("23 sec      In & Out Wave");
                 lstTimers.add(1*23);
                 lstCtTimers.add("23 sec      REST");
@@ -188,6 +338,8 @@ public class BattleRope extends Activity {
                 lstTimers.add(1*23);
 
             }
+
+
 
             if (entry.toString().equalsIgnoreCase("Intense 18")) {
 

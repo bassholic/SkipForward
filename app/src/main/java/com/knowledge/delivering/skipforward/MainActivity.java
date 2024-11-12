@@ -83,8 +83,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
        // set.setEnabled(false);
 
 
-        text1 = (TextView) findViewById(R.id.textView1);
-        stopwatch = (TextView)findViewById(R.id.stopwatch);
+        text1 = findViewById(R.id.textView1);
+        stopwatch = findViewById(R.id.stopwatch);
         countUp = (TextView)findViewById(R.id.counter);
 
         handler = new Handler() ;

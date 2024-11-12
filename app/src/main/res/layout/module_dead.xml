@@ -28,7 +28,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/black"
-        app:srcCompat="@drawable/jrope" />
+        app:srcCompat="@drawable/dead" />
 
     <Button
         android:id="@+id/dead15"

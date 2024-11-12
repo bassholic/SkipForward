@@ -18,12 +18,31 @@ public class ModuleBattle extends AppCompatActivity {
     Button jump600cal;
     Button jumpk30;
 
+    Button jump;
+
     public static String selectedWorkout = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.module_battle);
+
+        jump = (Button) findViewById(R.id.jump);
+        jump.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+                //Starting a new Intent
+                Intent nextScreen = new Intent(getApplicationContext(), MainActivityBattle.class);
+
+                BattleRope.workouts testingBattleRope = new BattleRope().new workouts();
+                selectedWorkout = "Beg 9 Single";
+                testingBattleRope.droppedDown("Beg 9 Single");
+
+                startActivity(nextScreen);
+
+            }
+        });
 
         jump60 = (Button) findViewById(R.id.jump60);
         jump60.setOnClickListener(new View.OnClickListener() {

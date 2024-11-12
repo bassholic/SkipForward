@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:orientation="vertical">
 
 
     <TextView
@@ -106,14 +106,14 @@
 
             <ImageButton
                 android:id="@+id/deadButton"
-                android:layout_width="fill_parent"
-                android:layout_height="165dp"
+                android:layout_width="match_parent"
+                android:layout_height="176dp"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentBottom="true"
                 android:layout_marginBottom="35dp"
                 android:layout_weight=".25"
                 android:backgroundTint="#ffffff"
-                android:src="@drawable/dead" />
+                android:src="@drawable/dead2" />
 
             <ImageButton
                 android:id="@+id/customButton"
@@ -129,4 +129,4 @@
     </ScrollView>
 
 
-</LinearLayout >
+</LinearLayout>
