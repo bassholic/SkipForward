@@ -15,12 +15,10 @@ import java.util.List;
 public class Deadtread extends Activity {
     public static List<Integer> lstTimers;
     public  static List<String> lstCtTimers;
-    private ListView ctItems;
 
 
-    ArrayAdapter listCtAdapter;
 
-    MainActivityDead MA = new MainActivityDead();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +29,7 @@ public class Deadtread extends Activity {
         lstCtTimers = new ArrayList<>();
     }
 
-    public  class workouts{
+    public static class workouts{
 
         public void droppedDown(String entry) {
 
@@ -40,7 +38,7 @@ public class Deadtread extends Activity {
 
            // Dialog settingsDialog = new Dialog(Treadmill.this);
 
-            if (entry.toString().equalsIgnoreCase("Dead1")) {
+            if (entry.equalsIgnoreCase("Dead1")) {
 
                 lstCtTimers.add("1 min walk");
                 lstTimers.add(60);
@@ -81,7 +79,7 @@ public class Deadtread extends Activity {
 
             }
 
-            if (entry.toString().equalsIgnoreCase("Dead2")) {
+            if (entry.equalsIgnoreCase("Dead2")) {
 
                 lstCtTimers.add("1 min walk");
                 lstTimers.add(60);
@@ -120,7 +118,7 @@ public class Deadtread extends Activity {
 
             }
 
-            if (entry.toString().equalsIgnoreCase("Dead3")) {
+            if (entry.equalsIgnoreCase("Dead3")) {
 
                 lstCtTimers.add("1 min walk");
                 lstTimers.add(60);
@@ -167,7 +165,7 @@ public class Deadtread extends Activity {
 
 
             }
-            if (entry.toString().equalsIgnoreCase("Dead4")) {
+            if (entry.equalsIgnoreCase("Dead4")) {
 
                 lstCtTimers.add("1 min Easy walk");
                 lstTimers.add(60);
@@ -193,8 +191,8 @@ public class Deadtread extends Activity {
             }
 
 
-            MA.lstTimers = lstTimers;
-            MA.lstCtTimers = lstCtTimers;
+            MainActivityDead.lstTimers = lstTimers;
+            MainActivityDead.lstCtTimers = lstCtTimers;
 
         }
     }

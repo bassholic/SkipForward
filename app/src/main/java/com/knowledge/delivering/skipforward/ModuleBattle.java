@@ -35,7 +35,7 @@ public class ModuleBattle extends AppCompatActivity {
                 //Starting a new Intent
                 Intent nextScreen = new Intent(getApplicationContext(), MainActivityBattle.class);
 
-                BattleRope.workouts testingBattleRope = new BattleRope().new workouts();
+                BattleRope.workouts testingBattleRope = new BattleRope.workouts();
                 selectedWorkout = "Beg 9 Single";
                 testingBattleRope.droppedDown("Beg 9 Single");
 
@@ -52,7 +52,7 @@ public class ModuleBattle extends AppCompatActivity {
                 //Starting a new Intent
                 Intent nextScreen = new Intent(getApplicationContext(), MainActivityBattle.class);
 
-                BattleRope.workouts testingBattleRope = new BattleRope().new workouts();
+                BattleRope.workouts testingBattleRope = new BattleRope.workouts();
                 selectedWorkout = "Beg 9";
                 testingBattleRope.droppedDown("Beg 9");
 
@@ -69,7 +69,7 @@ public class ModuleBattle extends AppCompatActivity {
                 //Starting a new Intent
                 Intent nextScreen = new Intent(getApplicationContext(), MainActivityBattle.class);
 
-                BattleRope.workouts testingBattleRope = new BattleRope().new workouts();
+                BattleRope.workouts testingBattleRope = new BattleRope.workouts();
                 selectedWorkout = "Intense 18";
                 testingBattleRope.droppedDown("Intense 18");
 

@@ -604,6 +604,13 @@ public void addListenerOnMusicBox(){
             settingsDialog.show();
         }
 
+        else if(ModuleBike.selectedWorkout=="Bike 6"){
+            settingsDialog.getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+            settingsDialog.setContentView(getLayoutInflater().inflate(R.layout.bike6
+                    , null));
+            settingsDialog.show();
+        }
+
 
 
 

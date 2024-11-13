@@ -34,7 +34,7 @@ public class ModuleDead extends AppCompatActivity {
                 //Starting a new Intent
                 Intent nextScreen = new Intent(getApplicationContext(), MainActivityDead.class);
 
-                Deadtread.workouts testingDead = new Deadtread().new workouts();
+                Deadtread.workouts testingDead = new Deadtread.workouts();
                 selectedWorkout = "Dead1";
                 testingDead.droppedDown("Dead1");
 
@@ -51,7 +51,7 @@ public class ModuleDead extends AppCompatActivity {
                 //Starting a new Intent
                 Intent nextScreen = new Intent(getApplicationContext(), MainActivityDead.class);
 
-                Deadtread.workouts testingDead = new Deadtread().new workouts();
+                Deadtread.workouts testingDead = new Deadtread.workouts();
                 selectedWorkout = "Dead2";
                 testingDead.droppedDown("Dead2");
 
@@ -68,7 +68,7 @@ public class ModuleDead extends AppCompatActivity {
                 //Starting a new Intent
                 Intent nextScreen = new Intent(getApplicationContext(), MainActivityDead.class);
 
-                Deadtread.workouts testingDead= new Deadtread().new workouts();
+                Deadtread.workouts testingDead= new Deadtread.workouts();
                 selectedWorkout = "Dead3";
                 testingDead.droppedDown("Dead3");
 
@@ -85,7 +85,7 @@ public class ModuleDead extends AppCompatActivity {
                 //Starting a new Intent
                 Intent nextScreen = new Intent(getApplicationContext(), MainActivityDead.class);
 
-                Deadtread.workouts testingDead= new Deadtread().new workouts();
+                Deadtread.workouts testingDead= new Deadtread.workouts();
                 selectedWorkout = "Dead4";
                 testingDead.droppedDown("Dead4");
 
