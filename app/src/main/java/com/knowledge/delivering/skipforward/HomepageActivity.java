@@ -88,7 +88,7 @@ public class HomepageActivity extends Activity {
 
             }
         });
-        imageButtonAbs.setOnClickListener(new View.OnClickListener() {
+     /*   imageButtonAbs.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
@@ -98,7 +98,7 @@ public class HomepageActivity extends Activity {
                 startActivity(nextScreen);
 
             }
-        });
+        });*/
 
         imageButtonCustom.setOnClickListener(new View.OnClickListener() {
 
